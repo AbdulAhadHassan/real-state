@@ -1,0 +1,163 @@
+.navbar ul{
+    margin: 0 ;
+    list-style-type: none;
+    background-color: #ffff;
+    border-radius:50px ;
+
+}
+
+.navbar{
+    background-color: #ffff !important;
+}
+
+.navbar p{
+    margin: 0%;
+}
+
+.navbar-main{
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 70px;
+    background-color: #fafafa !important;
+}
+
+.navbar-img a{
+    padding: 0%;
+}
+
+.btn{
+    border-radius: 40px;
+    background: white;
+    border: 1px solid grey;
+}
+
+@media (max-width:1200px) {
+    .hidden-mid{
+        display: none !important;
+    }
+    .non-hidden{
+        display: block !important;
+        font-size: x-large;
+        margin-right: 20px;
+    }.slider-img{
+        display: none;
+    }
+    
+    
+}
+    
+@media (max-width:550px) {
+    
+    .slider-search{
+        display: none !important;
+
+    }
+    .slider-sm-search{
+        display:flex !important; 
+        flex-direction: column;
+    }
+
+    .slider-sm-search button{
+        position: static !important;
+        margin-top: 20px;
+    }
+}
+    
+
+
+
+
+.search{
+    border-radius: 40px;
+    border: 0 solid;
+    height: 60px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+    
+.display-2{
+    font-weight: 600 !important;
+}
+    
+.display-4{
+    font-weight: 600 !important;
+}
+
+
+.btn-dark{
+    background-color: black;
+    height: 60px;
+    
+    z-index: 1;
+    position: absolute !important;
+    right: 0;
+    margin: auto;
+    padding: 15px 22px;
+}
+.slider{
+    background:linear-gradient(90deg,rgba(193, 222, 232, 1)0,rgba(251, 217, 185, 1));
+    height: 617px;
+    border-radius: 20px;
+}
+
+
+.slider-img{
+    right: 0%;
+}
+
+.section-1{
+
+}
+
+
+.section-2-card-img,.section-2-card-img2,.section-2-card-img3{
+    height: 263px;
+    position: relative;
+    top: 8px;
+}
+
+.section-2-card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background:url(img/3d-rendering-house-model\ \(1\)\ 1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -30px ;
+    border-radius: 14px;
+    
+}
+.section-2-card-img2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background:url(img/3d-rendering-house-model\ \(3\)\ 1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+
+}
+.section-2-card-img3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background:url(img/3d-view-house-model\ 1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    
+}
+
+.section-2-card-text{
+    border: 1px  solid grey ;
+    border-radius:14px ;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.btn-dark1{
+    background-color: black;
+    color: #ffff;
+}
