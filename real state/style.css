@@ -42,7 +42,17 @@
     }.slider-img{
         display: none;
     }
+
+    aside{
+        text-align: center;
+    }
     
+    section{
+        text-align: center;
+    }
+    .aside-button{
+        justify-content: center;
+    }
     
 }
     
@@ -160,4 +170,26 @@
 .btn-dark1{
     background-color: black;
     color: #ffff;
+}
+
+
+.aside-img{
+    height: 576px;
+}
+
+.aside-img img{
+    background: url(img/Rectangle\ 27.png);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+    border-radius: 14px;
+}
+
+
+.slider2{
+    background:linear-gradient(90deg,rgba(193, 222, 232, 1)0,rgba(251, 217, 185, 1));
+    height: 457px;
+    border-radius: 20px;
 }
